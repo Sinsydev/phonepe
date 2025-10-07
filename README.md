@@ -1,16 +1,31 @@
-# React + Vite
+# PhonePe Clone - Payment Page UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React + Vite + Tailwind CSS** project that simulates a payment page UI similar to PhonePe.  
+The project demonstrates **step indicators, timer, payment options, price details**, and responsive layout using **React functional components**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
 
-## React Compiler
+- **React 19** – UI library
+- **Vite** – Build tool
+- **Tailwind CSS 4** – Utility-first CSS
+- **React Icons** – For step and payment icons
+- **Netlify** – For demo deployment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Multi-step payment UI with step icons (`Address`, `Order Summary`, `Payment`)
+- Countdown timer for payments
+- Payment options (PhonePe, Paytm, UPI etc.)
+- Price details section including `Price Item`, `Delivery Charges`, `Amount Payable`
+- Product authenticity, secure payment, easy return indicators
+- Responsive design with full-width sections and proper spacing
+
+---
+
+## 📁 Project Structure
+ 
+  Link  Deme at https://phonepee.netlify.app/
